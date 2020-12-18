@@ -18,9 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/begonia
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/begonia/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.1-service \
     vendor/xiaomi/begonia/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
-    vendor/xiaomi/begonia/proprietary/vendor/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.nxp.hardware.nfc@1.1-service.rc \
     vendor/xiaomi/begonia/proprietary/vendor/etc/nxp/Phone_bt_bt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_bt_bt.bin \
     vendor/xiaomi/begonia/proprietary/vendor/etc/nxp/Phone_hsmic_hs.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_hsmic_hs.bin \
     vendor/xiaomi/begonia/proprietary/vendor/etc/nxp/Phone_mic_hp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_mic_hp.bin \
