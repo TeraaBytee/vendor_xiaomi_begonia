@@ -614,6 +614,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res.bin \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_bt_bt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_bt_bt.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_hsmic_hs.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_hsmic_hs.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_mic_hp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_mic_hp.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_mic_recv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_mic_recv.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_mic_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_mic_spk.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Phone_mic_spk_ev.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Phone_mic_spk_ev.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_hs_cam.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_hs_cam.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_hs_fast.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_hs_fast.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_hs_normal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_hs_normal.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_hs_unprocess.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_hs_unprocess.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_hs_vr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_hs_vr.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_mic_cam.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_mic_cam.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_mic_fast.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_mic_fast.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_mic_normal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_mic_normal.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_mic_unprocess.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_mic_unprocess.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/Record_mic_vr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/Record_mic_vr.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_bt_bt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_bt_bt.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_hsmic_hs.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_hsmic_hs.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_hsmic_hs_game.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_hsmic_hs_game.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_hp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_hp.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_hp_game.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_hp_game.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_hs.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_hs.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_recv.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_recv.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_recv_game.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_recv_game.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_spk.bin \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/nxp/VoIP_mic_spk_game.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nxp/VoIP_mic_spk_game.bin \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/pdc.txt:$(TARGET_COPY_OUT_VENDOR)/etc/pdc.txt \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/pm_test_item_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pm_test_item_config.xml \
@@ -1201,6 +1227,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/lib_smartpa_nxp_ap.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_smartpa_nxp_ap.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
@@ -1364,6 +1391,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnxprecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxprecord.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnxpspeech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxpspeech.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
@@ -1809,6 +1839,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDSuperPhotoAPI.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/lib_smartpa_nxp_ap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_smartpa_nxp_ap.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
@@ -2064,6 +2095,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnxprecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxprecord.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnxpspeech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxpspeech.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
