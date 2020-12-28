@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/bin/charge_logger:$(TARGET_COPY_OUT_VENDOR)/bin/charge_logger \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/dc_cal:$(TARGET_COPY_OUT_VENDOR)/bin/dc_cal \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
