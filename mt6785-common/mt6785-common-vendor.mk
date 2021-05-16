@@ -89,8 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-neuron-ann:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-neuron-ann \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/xiaomi/mt6785-common/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
@@ -327,8 +326,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-neuron-ann.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-neuron-ann.rc \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service-mediatek.rc \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/xiaomi/mt6785-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
@@ -1310,7 +1308,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libneuropilot_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_jni_R.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_daemon_callback.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_platform.so \
@@ -1445,6 +1443,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/vendor.xiaomi.hardware.tidaservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.tidaservice@1.1.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/vendor.xiaomi.hardware.touchfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.touchfeature@1.0.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.vsimapp@1.0.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/APUWareXrpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
@@ -1744,6 +1744,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalhLDC.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libapu-frontend.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu-frontend.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libapu-platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu-platform.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
@@ -1973,9 +1974,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuropilot_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libneuropilot_jni_R.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_jni_R.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram_daemon_callback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_daemon_callback.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/libnvram_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_platform.so \
@@ -2054,6 +2057,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/s5kgw1sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgw1sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/s5kgw1sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgw1sunny_mipi_raw_tuning.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
+    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@5.1.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
@@ -2090,8 +2095,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.4.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.5.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.netdagent@1.0.so \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot@1.0.so \
-    vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot@1.1.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
     vendor/xiaomi/mt6785-common/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
@@ -2174,5 +2177,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     android.hardware.gpu@1.0-service \
+    android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
     manifest_android.hardware.drm@1.2-service.widevine \
     vendor.mediatek.hardware.dplanner@2.0-service
