@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/xiaomi/begonia/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/xiaomi/begonia/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
-    vendor/xiaomi/begonia/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
-    vendor/xiaomi/begonia/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/xiaomi/begonia/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/xiaomi/begonia/proprietary/lib64/libmtkavenhancements.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkavenhancements.so \
     vendor/xiaomi/begonia/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
@@ -77,6 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/begonia/proprietary/system_ext/lib/vendor.mediatek.hardware.vpu@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.vpu@1.0.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib64/drm/cta/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/drm/cta/libdrmctaplugin.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib64/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaed.so \
+    vendor/xiaomi/begonia/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
+    vendor/xiaomi/begonia/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib64/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys.mtk.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib64/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils.mtk.so \
     vendor/xiaomi/begonia/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
