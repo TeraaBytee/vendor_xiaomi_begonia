@@ -2124,7 +2124,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.gpu@1.0-service \
     android.hardware.neuralnetworks@1.3-service-mtk-dsp-gpu \
     android.hardware.wifi.hostapd \
@@ -2132,4 +2131,5 @@ PRODUCT_PACKAGES += \
     lights-mtk-default \
     manifest \
     manifest_android.hardware.drm@1.3-service.widevine \
-    power-default
+    mfp-daemon \
+    power-mtk-default
